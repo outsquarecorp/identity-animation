@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: whitesmoke;
+  overflow: hidden;
+  padding: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+a:link,
+a:visited,
+a:active,
+a:hover {
+  text-decoration: none;
+  color: #212120;
+}
+
+.nav {
+  color: #ff0100;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+}
+
+.nav__column {
+  display: flex;
+  align-items: center;
+}
+
+.nav__column:last-child {
+  font-size: 10px;
+  color: #212120;
+}
+
+.nav-menu,
+.nav-menu-bar {
+  margin-left: 15px;
+}
+
+.bottom {
+  color: #212120;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px
+}
+
+.bottom-text {
+  margin-bottom: 10px;
+  font-size: 10px
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 350px;
+}
+
+.content-title {
+  color: #ff0100;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.content-sub {
+  color: #212120;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 20px;
+}
