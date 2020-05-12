@@ -97,7 +97,7 @@ a:hover {
   top: 350px;
 }
 
-.content-title {
+.content-title a {
   color: #ff0100;
   font-size: 24px;
   font-weight: 700;
