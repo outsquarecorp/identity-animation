@@ -22,10 +22,10 @@
     opacity: 0;
   }
   #dot {
-    background-color: #ff0100;
-    -moz-box-shadow: 0 0 5px #ff0100;
+    background-color: gray;
+    /* -moz-box-shadow: 0 0 5px #ff0100;
     -webkit-box-shadow: 0 0 5px #ff0100;
-    box-shadow: 0px 0px 5px #ff0100;
+    box-shadow: 0px 0px 5px #ff0100; */
   }
   
   .c:nth-child(1) {
