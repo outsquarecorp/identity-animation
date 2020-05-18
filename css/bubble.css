@@ -1,11 +1,11 @@
 /* html, body {
     height: 100%;
   } */
-  
-  body {
-    /* background: black; */
-    min-height: 100%;
-  }
+
+body {
+        /* background: black; */
+        min-height: 100%;
+}
 
 @-webkit-keyframes move {
         100% {
@@ -29,8 +29,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        left: 75px;
-        top: 30px;
+        left: 90px;
+        top: -15px;
         -webkit-transform-style: preserve-3d;
         transform-style: preserve-3d;
 }

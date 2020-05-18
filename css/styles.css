@@ -8,6 +8,7 @@ body {
 
 body {
   background: #fbfbfb;
+
   overflow: hidden;
   padding: 20px;
   font-family: 'Lato', sans-serif;
@@ -49,6 +50,7 @@ a:hover {
   margin-left: 40px;
   color: #ff0100;
 }
+
 .nav-eng .nav-menu {
   margin-left: 0px;
   color: #ff0100;
@@ -67,6 +69,30 @@ a:hover {
   font-weight: 700;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  top: 290px;
+  position: relative;
+  left: 0px;
+  right: 0px;
+}
+
+.content-title a {
+  color: #ff0100;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.content-sub {
+  color: #212120;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
 .bottom {
   color: #212120;
   position: fixed;
@@ -83,29 +109,4 @@ a:hover {
 .bottom-text {
   margin-bottom: 10px;
   font-size: 10px
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  top: 350px;
-}
-
-.content-title a {
-  color: #ff0100;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.content-sub {
-  color: #212120;
-  font-size: 14px;
-  font-weight: 300;
-  margin-top: 10px;
 }
